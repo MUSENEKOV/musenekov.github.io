@@ -14,8 +14,8 @@ github：https://github.com/imsyy/sou2
 日期：2022-03-10
 ========================================
 由 yxianxt 三次修改
-github：https://github.com/start
-日期：2022-03-10
+github：https://github.com/MUSESTAR-Start/MUSESTAR-Start.github.io
+日期：2024-11-28
 */
 
 // 默认搜索引擎列表
@@ -171,7 +171,6 @@ function setBgImg(bg_img) {
 }
 
 // 设置-壁纸
-//$('#bg').attr('src','https://api.dujin.org/bing/1920.php')
 function setBgImgInit() {
     var bg_img = getBgImg();
     $("input[name='wallpaper-type'][value=" + bg_img["type"] + "]").click();
@@ -189,7 +188,7 @@ function setBgImgInit() {
             $('#bg').attr('src', 'https://api.dujin.org/bing/1920.php') //必应每日
             break;
         case "3":
-            $('#bg').attr('src', 'https://api.dujin.org/pic/fengjing') //随机风景
+            $('#bg').attr('src', 'https://api.52vmy.cn/api/img/tu/viewg') //随机风景
             break;
         case "4":
             $('#bg').attr('src', 'https://api.anosu.top/api/?sort=all') //随机二次元
