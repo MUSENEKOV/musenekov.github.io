@@ -185,7 +185,7 @@ function setBgImgInit() {
 
     switch (bg_img["type"]) {
         case "2":
-            $('#bg').attr('src', 'https://api.dujin.org/bing/1920.php') //必应每日
+            $('#bg').attr('src', 'https://bing.img.run/uhd.php') //必应每日
             break;
         case "3":
             $('#bg').attr('src', 'https://api.52vmy.cn/api/img/tu/viewg') //随机风景
