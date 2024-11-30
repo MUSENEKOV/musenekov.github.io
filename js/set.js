@@ -29,7 +29,7 @@ var se_list_preinstall = {
     },
     '2': {
         id: 2,
-        title: "缪斯星集合搜",
+        title: "缪斯星",
         url: "https://video.musestar.cc/index.php/vod/search.html",
         name: "wd",
         icon: "iconfont icon-wangluo",
