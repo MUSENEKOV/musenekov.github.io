@@ -1,10 +1,9 @@
 //加载完成后执行
 window.addEventListener('load', function () {
-    //载入动画
-    $('#loading-box').attr('class', 'loaded');
-    $('#bg').css("cssText", "transform: scale(1);filter: blur(0px);transition: ease 1.5s;");
-    $('#section').css("cssText", "opacity: 1;transition: ease 1.5s;");
-    $('.cover').css("cssText", "opacity: 1;transition: ease 1.5s;");
+    //直接显示页面内容
+    $('#bg').css("cssText", "transform: scale(1);filter: blur(0px);");
+    $('#section').css("cssText", "opacity: 1;");
+    $('.cover').css("cssText", "opacity: 1;");
 
     //用户欢迎
     iziToast.settings({
